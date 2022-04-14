@@ -7,11 +7,11 @@
 * Dateistatistik erstellen                          ☑️
 * Tic-Tac-Toe mit GUI                               ☑️
 * URL-Shortener implementieren                      ☑️
-* Server-Backup durchführen                         
+* Server-Backup durchführen                         ☑️                   
 * Datenbank erstellen und abfragen                  
 * Relationale Datenbank anbinden                    
 * HTTP-Monitoring einrichten                        ☑️
-* Datenauswertung durchführen (pandas, matplotlib) 
+* Datenauswertung durchführen                       ☑️
 * Diagramme für Messprotokoll erstellen             
 * Turtle-Grafiken erstellen                         
 * Neuronales Netz simulieren (Perzeptron, YOLO)

@@ -10,6 +10,8 @@ tabulate = "*"
 pyqt5 = "*"
 flask = "*"
 pycryptodome = "*"
+pandas = "*"
+matplotlib = "*"
 
 [dev-packages]
 
