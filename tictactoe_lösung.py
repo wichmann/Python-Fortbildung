@@ -1,11 +1,33 @@
 
 """
-Tic-Tac-Toe mit grafischer Benutzeroberfläche.
+Es soll ein Tic-Tac-Toe-Spiel mit grafischer Benutzeroberfläche programmiert
+werden. Das Hauptfenster besteht aus neun Buttons, über die zwei Spieler
+nacheinander X und O setzen können. Wenn drei gleiche Zeichen senkrecht, 
+waagerecht oder diagonal nebeneinander stehen, ist das Spiel beendet.
+
+Mögliche Erweiterungen:
+Neben dem Spielfeld könnte der Spieler des aktuellen Zuges angezeigt werden.
+Zusätzlich könnten mehrere Spiele nacheinander gespielt werden und der Punkte-
+stand angezeigt werden.
+
+Hilfen:
+ * Referenzhandbuch für PyQt5 [1]
+ * Beispielprogramm "Währungsrechner" [2]
+ * Artikel aus der c't [3], [4], [5]
 
 Bibliotheken:
- * pip install pyqt5
+ * pyQt5 - Bibliothek für grafische Benutzeroberflächen
+    pip install pyqt5
+
+Quellen:
+[1] https://www.riverbankcomputing.com/static/Docs/PyQt5/
+[2] https://github.com/wichmann/CurrencyCalculator/blob/master/currencyCalculator.py
+[3] https://www.heise.de/ratgeber/Programmieren-mit-Python-Bedienoberflaeche-via-PyQt-erstellen-4949489.html
+[4] https://www.heise.de/ratgeber/Qt-Designer-Bedienoberflaechen-fuer-Python-per-Drag-and-Drop-erstellen-6264854.html
+[5] https://www.heise.de/ratgeber/Security-Simplen-Passwortgenerator-mit-Python-programmieren-6296784.html
 
 """
+
 
 import sys
 
@@ -34,10 +56,6 @@ class TicTacToe(QtWidgets.QMainWindow):
             new_button.setStyleSheet("QPushButton{font-size: 36pt;}")
             new_button.clicked.connect(self.handle_button_click)
             self.buttons.append(new_button)
-
-        #self.button_upper_left = QtWidgets.QPushButton('')
-        #self.button_upper_left.setMinimumSize(200, 200)
-        # self.button_upper_left.clicked.connect(self.handle_button_click)
 
         # Layout setzen
         layout = QtWidgets.QGridLayout()
