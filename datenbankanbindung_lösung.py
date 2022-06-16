@@ -1,18 +1,30 @@
 
 """
-Abfragen einer MariaDB-Datenbank.
+Eine bestehende MariaDB-Datenbank soll per SQL abgefragt werden. Die Ergebnisse
+sind tabellarisch auf der Konsole auszugeben.
+
+Bevor das Python-Programm ausgeführt wird, muss zunächst MariaDB gestartet
+werden. Auf den Schulrechnern kann dies über das XAMPP Control Panel geschehen.
+
+Mögliche Erweiterungen:
+
+Hilfen:
+ * Handbuch zum MariaDB-Connector für Python [2]
+ * Blog-Eintrag "How to connect Python programs to MariaDB" [3]
+ * Hinweise zur Nutzung der Bibliothek tabulate [4]
 
 Bibliotheken:
- * pip install mariadb
- * pip install tabulate
-
-Vorgehen:
- * Starten Sie das XAMPP Control Panel und dort den MySQL-Server.
- * ???
+ * MariaDB - Datenbankschnittstelle zu MariaDB
+    pip install mariadb
+ * tabulate - Ausgabe von schönen Tabellen auf der Kommandozeile
+    pip install tabulate
 
 Quellen:
- * https://www.github.com/mariadb-corporation/mariadb-connector-python
- * https://mariadb-corporation.github.io/mariadb-connector-python/index.html
+[1] https://www.github.com/mariadb-corporation/mariadb-connector-python
+[2] https://mariadb-corporation.github.io/mariadb-connector-python/
+[3] https://mariadb.com/de/resources/blog/how-to-connect-python-programs-to-mariadb/
+[4] https://github.com/astanin/python-tabulate#library-usage
+
 """
 
 import sys
