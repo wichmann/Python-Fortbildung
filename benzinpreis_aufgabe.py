@@ -3,7 +3,8 @@
 Alle Tankstellen in Deutschland melden ihre Preise regelmäßig an eine zentrale
 Benzinpreis-Datenbank (Markttransparenzstelle für Kraftstoffe). Über eine REST-
 HTTP-Schnittstelle von tankerkoenig.de [1] lassen sich diese Preisinformationen
-auslesen.
+auslesen. Die Antwort des Servers enthält JSON-Daten, die sich einfach aus-
+werten und weiterverarbeiten lassen.
 
 Es sollen die Preise der Tankstellen um einen bestimmten Ort herum abgerufen
 werden. Anschließend sollen die aktuell fünf günstigsten Tankstellen in über-
@@ -16,6 +17,7 @@ Hilfen:
  * Handbuch der Bibliothek requests [2]
  * Einführung in die Bibliothek requests [4]
  * Hinweise zur Nutzung der Bibliothek tabulate [3]
+ * Artikel zu requests aus dem Admin Magazin [5]
 
 Bibliotheken:
  * requests - HTTP-Client-Bibliothek
@@ -28,6 +30,7 @@ Quellen:
 [2] https://requests.readthedocs.io/en/latest/
 [3] https://github.com/astanin/python-tabulate#library-usage
 [4] https://realpython.com/python-requests/
+[5] https://www.admin-magazin.de/Das-Heft/2014/04/Die-Python-Bibliothek-Requests-stellt-HTTP-Anfragen
 
 """
 
