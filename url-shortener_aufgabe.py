@@ -6,6 +6,10 @@ vorher gespeicherten URL weiterleitet. Verschiedene Kürzel führen zu unter-
 schiedlichen Internet-Adressen. Die Kurz-URL kann dann statt der kompletten,
 langen URL weitergegeben werden.
 
+Für die Speicherung der Zuordnung zwischen Kurz-URL und Lang-URL kann ein
+Dictionary genutzt werden. Alternativ wäre die Speicherung in einer SQLite-
+Datenbank möglich.
+
 Mögliche Erweiterungen:
 Neben dem Endpunkt zur Weiterleitung gibt es einen Server-Pfad, über den neue
 Weiterleitungen eingerichtet werden können. Zur Verwaltung des Servers wäre
