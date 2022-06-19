@@ -180,3 +180,4 @@ cython_debug/
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
 
 sympy_beispiel/**
+hardwareliste_daten.csv
