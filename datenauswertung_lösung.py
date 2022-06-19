@@ -7,6 +7,10 @@ wählte Anzahl von Ländern ein Liniendiagramm erstellt werden, das den Verlauf
 des Anteils über die gegebenen Jahre darstellt.
 
 Mögliche Erweiterungen:
+Statt "matplotlib" könnte die Bibliothek "seaborn" [6] genutzt werden, die eine
+schöner Darstellung erlaubt. Mit der Bibliothek "Bokeh" [7] lassen sich Visua-
+lisierungen mit HTML und Javascript erstellen, die direkt im Browser angesehen
+werden können. Diese Bibliothek liefert zum Testen viele Beispieldaten mit.
 
 Hilfen:
  * Einführung in die Bibliothek "pandas" [2]
@@ -15,7 +19,7 @@ Hilfen:
  * Beispieldaten von den Machern der Bibliothek "pandas" [5]
 
 Bibliotheken:
- * pandas - 
+ * pandas - Datenanalyse und -manipulation
     pip install pandas
  * matplotlib - Erstellung von Diagrammen
     pip install matplotlib
@@ -26,6 +30,8 @@ Quellen:
 [3] https://www.heise.de/hintergrund/Analyse-von-Open-Data-mit-Pandas-5049049.html
 [4] https://www.heise.de/ratgeber/Mit-Python-und-Pandas-die-eigenen-Einkaufsdaten-analysieren-6668748.html
 [5] https://github.com/pandas-dev/pandas/tree/main/doc/data
+[6] https://seaborn.pydata.org/
+[7] https://pypi.org/project/bokeh/
 
 """
 
